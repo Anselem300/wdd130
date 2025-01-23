@@ -1,0 +1,12 @@
+/* generated font */
+
+@font-face {
+    font-family: 'rock_saltregular';
+    src: url('../../fonts/rocksalt-webfontkit.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'rock_saltregular', 'Bradley mand', 'cursive';
+}

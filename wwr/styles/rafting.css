@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #FAF0CA;
+    --secondary-color: #BFC3B1;
+    --accent1-color: #849698;
+    --accent2-color: #F7E294;
+}
+
+h1, h2 {
+    font-family: 'Roboto', 'san-serif';
+    color: var(--accent1-color);
+}
+
+p {
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+}
+
+#underline {
+    text-decoration: none;
+}
+
+div {
+    margin: 1rem;
+    border: 1px solid var(--accent1-color);
+    padding: 1rem;
+}
+
+.hero div {
+    position: relative;
+}
+
+.hero {
+    margin: 1rem;
+    border: 1px solid var(--accent1-color);
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    color: black;
+}
