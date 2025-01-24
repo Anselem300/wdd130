@@ -36,3 +36,19 @@ div {
     background-color: var(--secondary-color);
     color: black;
 }
+
+.hero div h1 article{
+    position: absolute;
+}
+
+#box article img {
+    float: right;
+}
+ h1 {
+    text-align: center;
+    padding: 0;
+    border: 1px solid var(--accent1-color);
+    background-color: black;
+    font-family: 'Roboto', 'san-serif';
+    color: white;
+ }
