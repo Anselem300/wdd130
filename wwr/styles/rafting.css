@@ -30,11 +30,14 @@ div {
 }
 
 .hero {
+    display: flex;
     margin: 1rem;
     border: 1px solid var(--accent1-color);
     padding: 1rem;
     background-color: var(--secondary-color);
     color: black;
+    max-width: 1000px;
+    justify-self: center;
 }
 
 .hero div h1 article{
@@ -51,4 +54,70 @@ div {
     background-color: black;
     font-family: 'Roboto', 'san-serif';
     color: white;
+}
+
+header {
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 100px 1fr 1fr;
+	align-items: center;
+    max-width: 1000px;
+	border-bottom: 1px solid #ccc;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto', 'san-serif';
+    font-weight: 700;
+    align-items: center;
+}
+
+header img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history {
+    display: grid;
+    max-width: 1000px;
+    justify-self: center;
+    padding: 0%;
+    border: 1px;
+    grid-column: 1/2;
+}
+
+.history h2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    max-width: 1000px;
+    justify-self: center;
+    padding: 0%;
+    border: 1px;
+}
+
+.ad {
+    display: grid;
+    max-width: 1000px;
+    justify-self: center;
+    padding: 0%;
+    border: 1px;
+    color: black;
+}
+
+footer {
+    display: grid;
+    max-width: 1000px;
+    justify-self: center;
+    padding: 0%;
+    border: 1px;
+    grid-template-columns: 100% 50%;
 }
