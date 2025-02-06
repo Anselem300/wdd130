@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'san-serif';
+    font-size: 1.2em;
+    color: #141414;
+    background-color: snow;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    color: navy;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+form {
+    display: grid;
+    width: 650px;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color: gainsboro;
+    justify-content: space-around;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    display: grid;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    border-top: 1px solid black;
+}
+
+button {
+    width: 600px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto 0;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: lightcyan;
+}
+
+button:hover {
+    background-color: azure;
+}
+
+form p {
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    width: 450px;
+    margin: 0.5rem auto 0;
+    display: grid;
+}
+
+label {
+    margin: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
