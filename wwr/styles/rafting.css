@@ -98,7 +98,7 @@ header img {
 .adventure {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    max-width: 1000px;
+    width: 1000px;
     justify-self: center;
     padding: 0%;
     border: 1px;
@@ -119,5 +119,106 @@ footer {
     justify-self: center;
     padding: 0%;
     border: 1px;
-    grid-template-columns: 100% 50%;
+    grid-template-columns: 75% 20% 75%;
+}
+
+.hero-info {
+    display: grid;
+    width: 1000px;
+    margin: 0.5rem auto 0;
+    background-color: var(--accent1-color);
+    border: 1px solid var(--accent1-color);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.hero-info h2 {
+    color: black;
+}
+
+.hero-info p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+iframe {
+    width: 1000px;
+}
+
+.adventure-core {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1000px;
+    margin: 0.5rem auto 0;
+    justify-content: center;
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+    border-radius: 1rem;
+}
+
+form {
+    display: grid;
+    width: 1000px;
+    margin: 0.5rem auto 0;
+    border: 1px solid var(--secondary-color);
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 2rem;
+}
+
+label {
+    margin: 0.5rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+button {
+    width: 1000px;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-weight: 1000;
+    font-size: 1rem;
+}
+
+.form-subscribe{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr 1fr;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.text {
+    display: grid;
+    border: none;
+    font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+.form-radio {
+    border: none;
+    font-size: 1.2rem;
+}
+
+footer a {
+    font-weight: 700;
+    font-size: 1rem;
 }
