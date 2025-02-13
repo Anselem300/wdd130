@@ -97,9 +97,10 @@ header img {
 
 .adventure {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 27% 20% 20% 20% 20%;
     width: 1000px;
     justify-self: center;
+    margin: 1rem auto 0;
     padding: 0%;
     border: 1px;
 }
@@ -221,4 +222,118 @@ input[type="radio"] {
 footer a {
     font-weight: 700;
     font-size: 1rem;
+}
+
+.home-section {
+    display: grid;
+    margin: auto 0;
+    width: 1000px;
+    border-radius: 1.5rem;
+}
+
+
+section p {
+    color: #FAF0CA;
+    text-align: center;
+    font-weight: 600;
+    background-color: #434444;
+    border: 1px solid #434444;
+    padding: 0.3rem;
+}
+
+section img {
+    float: right;
+    position: relative;
+    align-self: center;
+}
+
+.home {
+    display: flex;
+    margin: 1rem;
+    border: 1px solid var(--accent1-color);
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    color: black;
+    max-width: 1000px;
+    justify-self: center;
+    background-image: url("../images/hero.jpg");
+    border-radius: 1rem;
+}
+
+.explore {
+    width: 1000px;
+    margin: 0 auto;
+    font-weight: 500;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 1rem;
+} 
+
+#call-to-action {
+    display: grid;
+    justify-content: center;
+    font-weight: 900;
+    padding: 1rem;
+    border: 1px solid white;
+    width: 20rem;
+    background-color: whitesmoke;
+    border-radius: 2rem;
+}
+
+.foot {
+    display: grid;
+    max-width: 1000px;
+    justify-self: center;
+    padding: 0%;
+    border: 1px;
+    grid-template-columns: 100% 50%;
+}
+
+#box {
+    float: right;
+    position: relative;
+    align-self: center;
+}
+
+.display {
+    display: grid;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: 1px solid var(--secondary-color);
+}
+
+table {
+    margin: 0.5rem auto 0;
+    border: 1px solid black;
+    width: 700px;
+}
+
+caption {
+    font-weight: 800;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+thead {
+    grid-template-columns: 20% 20%;
+    font-weight: 700;
+}
+
+tr {
+    grid-template-columns: 20% 20%;
+    background-color: var(--secondary-color);
+}
+
+ td {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.table {
+    width: 1000px;
+    margin: 0 auto 0;
+    border: none;
+    background-color: mistyrose;
+    border-radius: 1rem;
 }
