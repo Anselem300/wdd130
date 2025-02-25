@@ -1,0 +1,31 @@
+.design {
+    display: grid;
+    grid-template-columns: 35% 10%;
+    text-align: center;
+    margin: 1rem auto 0;
+    width: 800px;
+    justify-content: center;
+    font-family: 'Robotic', 'san-serif';
+}
+
+h1 {
+    padding: 1rem;
+    border-right: 1px solid lightgreen;
+}
+
+h2 {
+    padding: 2.5rem;
+    padding-left: 0.7rem;
+    font-weight: 400;
+    font-size: small;
+}
+
+.background {
+    margin: 1rem auto 0;
+    width: 800px;
+}
+
+footer p {
+    margin: 1rem auto 0;
+    width: 800px;
+}
